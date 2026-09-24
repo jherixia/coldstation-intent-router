@@ -1,0 +1,49 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Model caches and training artifacts
+.cache/
+huggingface/
+ollama/
+models/
+checkpoints/
+training/output/
+training/outputs/
+training/checkpoints/
+wandb/
+runs/
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+
+# Generated evaluation artifacts and local reports
+reports/
+*_results*.csv
+*_summary*.json
+*_report*.md
+eval_results*.csv
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

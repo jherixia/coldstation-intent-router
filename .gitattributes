@@ -1,0 +1,2 @@
+# Preserve CSV bytes and hashes across Windows/Linux clones.
+*.csv -text whitespace=cr-at-eol
